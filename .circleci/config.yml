@@ -8,7 +8,7 @@ jobs:
       - image: circleci/ruby:2.7
     working_directory: ~/rails-docker-ovb/src
     steps:
-      - checkout
+      - checkout:
           path: ~/rails-docker-ovb
       - ruby/install-deps
 
